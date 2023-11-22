@@ -1,0 +1,14 @@
+.btn-nuevo{
+    border: none;
+    border-radius: 15px; /* Ajusta este valor según sea necesario para obtener la curvatura deseada */
+    padding: 10px 20px; /* Ajusta el espacio interno según sea necesario */
+    background-color: #4CAF50; /* Color verde */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición en el cambio de color de fondo */
+
+}
+.btn-nuevo:hover{
+    background-color: #45a049;
+}

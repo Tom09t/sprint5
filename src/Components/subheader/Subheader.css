@@ -1,0 +1,74 @@
+a{
+    text-decoration: none;
+    color:#000;
+
+}
+.subHeader {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 10px solid black;
+}
+
+.subHeader button {
+    width: 10%;
+    font-size: 30px;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subHeader a {
+    width: 15%;
+    font-size: 30px;
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subHeader button svg {
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+}
+
+/*---------------- TYPE HEADER ------------------*/
+
+.typeSection {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.typeSection button {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 50vw;
+    border-left: 1px solid #000;
+}
+
+
+.typeSection a {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9a9a9a;
+}
+.linkProductos{
+    color: #000;
+}
